@@ -1,0 +1,171 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.logo {
+    display: block;
+    text-align: center;
+    margin-top: 225px;
+}
+
+.bar {
+    margin: 20px;
+    display: block;
+    max-width: 600px;
+    width: 80vw;
+}
+
+.search_bar {
+    max-width: 575px;
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    border-color: rgba(50, 50, 50, 0.2);
+    border-width: 1px;
+    padding-left: 20px
+}
+
+.search_bar:hover, .search_bar:focus, .search_bar:focus-within{
+    border-color: transparent;
+    box-shadow: 0px 1px 6px rgba(50, 50, 50, 0.3);
+    outline: none;
+}
+
+.buttons {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+    background-color: rgb(245, 245, 245);
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(245, 245, 245);
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.buttons:hover {
+    border-color: lightgrey;
+}
+
+.nav {
+    text-align: right;
+    margin: 20px;
+    height: 30px;
+    display: grid;
+    grid-template-columns: 100px auto 50px 150px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    vertical-align: center;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+#img {
+    grid-column-start: 3;
+}
+
+#adv {
+    grid-column-start: 4;
+}
+
+#sch {
+    grid-column-start: 4;
+}
+
+.form {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin: auto;
+}
+
+.images {
+    font-size: 16px;
+    color: rgb(0, 110, 255);
+    padding-left: 218px;
+    margin-top: -20px;
+}
+
+#nav_logo {
+    align-content: left;
+    height: 25px;
+    grid-column-start: 1;
+}
+
+#advanced_logo{
+    display: block;
+    color: rgb(197, 13, 0);
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(50, 50, 50, 0.2);
+    margin-bottom: 30px;
+}
+
+#ad-form {
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.fields {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 200px minmax(auto, 600px);
+}
+
+.ad-label {
+    vertical-align: baseline;
+}
+
+.ad-input {
+    width: 100%;
+    height: 25px;
+    border-color: rgba(50, 50, 50, 0.2);
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+.add-input:hover, .ad-input:focus, .ad-input:focus-within{
+    outline: none;
+    border-color: rgb(0, 110, 255);
+    border-width: 1px;
+}
+
+#header {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#button {
+    width: 120px;
+    float: right;
+}
+
+#a_button {
+    width: 125px;
+    height: 30px;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    border: solid 1px rgb(0, 90, 215);
+    box-shadow: none;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#a_button:hover {
+    background-color: rgb(0, 102, 247)
+}
